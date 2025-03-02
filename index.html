@@ -1,0 +1,54 @@
+<!doctype html>
+
+<!-- see UNLICENSE file in the website's source code for copyright and license details. -->
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="darkreader-lock">
+		<title>:3</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1 class="center mono">hi.</h1>
+		<div class="center mono">
+			<a href="https://github.com/slightlyeepy" class="mauve">github</a>
+			// email: probablymyemail@proton.me
+			// discord: @probablymyusername //
+			<a href="https://github.com/slightlyeepy/slightlyeepy.github.io" class="mauve">website source</a>
+		</div>
+		<p class="center mono subtext">ann/annie</p>
+
+		<!-- this part is a complete mess. i'm so sorry -->
+		<p class="pre-wrap mono">
+			<span class="subtext">
+#include &lt;stdio.h&gt;
+
+#ifdef __OpenBSD__
+#include &lt;errno.h&gt;
+#include &lt;string.h&gt;
+#endif /* __OpenBSD__ */
+
+int
+main(int argc, char *argv[])
+{
+#ifdef __OpenBSD__
+	if (pledge("stdio", NULL) < 0) {
+		fprintf(stderr, "%s: pledge: %s\n", argv[0], strerror(errno));
+		return 1;
+	}
+#endif /* __OpenBSD__ */
+
+	puts("</span>the main thing i do & my favorite hobby is coding in C/ASM<span class="subtext">\n\</span>
+		i kinda like tinkering with electronics/hardware<span class="subtext">\n\</span>
+		i also do 3x3 speedcubing but kinda suck at it (23s pb, 35s ao5)<span class="subtext">\n\</span>
+		im... fairly not bad at piano i guess?<span class="subtext">");
+	return 0;
+}
+			</span>
+		</p>
+	</body>
+</html>

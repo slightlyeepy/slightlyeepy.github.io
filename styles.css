@@ -1,0 +1,33 @@
+/* see UNLICENSE file in the website's source code for copyright and license details */
+
+html {
+	background-color: #181825;
+	color: #cdd6f4;
+}
+
+.subtext {
+	color: #a6adc8;
+}
+
+.mauve {
+	color: #cba6f7;
+}
+
+.center {
+	text-align: center;
+}
+
+.pad {
+	padding-left: 10%;
+}
+
+.mono {
+	font-family: "JetBrains Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.pre-wrap {
+	white-space: pre-wrap;
+}
